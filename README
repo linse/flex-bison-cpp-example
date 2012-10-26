@@ -14,7 +14,7 @@ located in a different namespace.
 
 *** Website / License ***
 
-The following just mean you can copy the example code into your program or use
+The following just means you can copy the example code into your program or use
 it for whatever purpose without crediting me (though I would really like it if
 you did):
 
@@ -47,10 +47,6 @@ and Bison require no compile-time dependencies, because they generate fully
 autonomous source code. (And Flex and Bison are installed almost everywhere.) 
 So far I have not found any modern parser generator which outputs independent
 code.
-
-It is even possible to compile the generated source with Visual C++ on Windows
-(worked with 8.0 aka 2005). Flex and Bison need not be installed on the windows
-machine. The source package includes a VC++ solution and two project files.
 
 *** Source and Generated Files ***
 

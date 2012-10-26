@@ -1,8 +1,6 @@
-# $Id: configure.ac 51 2009-09-05 08:24:18Z tb $
+# $Id: configure.ac 51 2012-10-26 08:24:18Z tb $
 
-# AC_PREREQ(2.59)
-
-AC_INIT([flex-bison-cpp-example], [0.1.4])
+AC_INIT([flex-bison-cpp-example], [0.1.5])
 AC_CONFIG_SRCDIR([src/exprtest.cc])
 AC_CONFIG_AUX_DIR([scripts])
 

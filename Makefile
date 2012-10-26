@@ -14,7 +14,7 @@
 
 
 
-# $Id: Makefile.am 30 2007-08-20 11:15:18Z tb $
+# $Id: Makefile.am 30 2012-10-26 11:15:18Z tb $
 
 pkgdatadir = $(datadir)/flex-bison-cpp-example
 pkglibdir = $(libdir)/flex-bison-cpp-example
@@ -69,11 +69,11 @@ DIST_ARCHIVES = $(distdir).tar.gz
 GZIP_ENV = --best
 distuninstallcheck_listfiles = find . -type f -print
 distcleancheck_listfiles = find . -type f -print
-ACLOCAL = ${SHELL} /Users/linse/flex-bison-cpp-example-0.1.4/scripts/missing --run aclocal-1.10
-AMTAR = ${SHELL} /Users/linse/flex-bison-cpp-example-0.1.4/scripts/missing --run tar
-AUTOCONF = ${SHELL} /Users/linse/flex-bison-cpp-example-0.1.4/scripts/missing --run autoconf
-AUTOHEADER = ${SHELL} /Users/linse/flex-bison-cpp-example-0.1.4/scripts/missing --run autoheader
-AUTOMAKE = ${SHELL} /Users/linse/flex-bison-cpp-example-0.1.4/scripts/missing --run automake-1.10
+ACLOCAL = ${SHELL} /Users/linse/Documents/cloned/flex-bison-cpp-example/scripts/missing --run aclocal-1.10
+AMTAR = ${SHELL} /Users/linse/Documents/cloned/flex-bison-cpp-example/scripts/missing --run tar
+AUTOCONF = ${SHELL} /Users/linse/Documents/cloned/flex-bison-cpp-example/scripts/missing --run autoconf
+AUTOHEADER = ${SHELL} /Users/linse/Documents/cloned/flex-bison-cpp-example/scripts/missing --run autoheader
+AUTOMAKE = ${SHELL} /Users/linse/Documents/cloned/flex-bison-cpp-example/scripts/missing --run automake-1.10
 AWK = awk
 CC = gcc
 CCDEPMODE = depmode=gcc3
@@ -83,7 +83,7 @@ CXX = g++
 CXXDEPMODE = depmode=gcc3
 CXXFLAGS = -g -I/usr/include
 CYGPATH_W = echo
-DEFS = -DPACKAGE_NAME=\"flex-bison-cpp-example\" -DPACKAGE_TARNAME=\"flex-bison-cpp-example\" -DPACKAGE_VERSION=\"0.1.4\" -DPACKAGE_STRING=\"flex-bison-cpp-example\ 0.1.4\" -DPACKAGE_BUGREPORT=\"\" -DPACKAGE=\"flex-bison-cpp-example\" -DVERSION=\"0.1.4\" -DYYTEXT_POINTER=1
+DEFS = -DPACKAGE_NAME=\"flex-bison-cpp-example\" -DPACKAGE_TARNAME=\"flex-bison-cpp-example\" -DPACKAGE_VERSION=\"0.1.5\" -DPACKAGE_STRING=\"flex-bison-cpp-example\ 0.1.5\" -DPACKAGE_BUGREPORT=\"\" -DPACKAGE=\"flex-bison-cpp-example\" -DVERSION=\"0.1.5\" -DYYTEXT_POINTER=1
 DEPDIR = .deps
 ECHO_C = \c
 ECHO_N = 
@@ -102,27 +102,27 @@ LIBOBJS =
 LIBS = 
 LTLIBOBJS = 
 MAINT = #
-MAKEINFO = ${SHELL} /Users/linse/flex-bison-cpp-example-0.1.4/scripts/missing --run makeinfo
+MAKEINFO = ${SHELL} /Users/linse/Documents/cloned/flex-bison-cpp-example/scripts/missing --run makeinfo
 MKDIR_P = scripts/install-sh -c -d
 OBJEXT = o
 PACKAGE = flex-bison-cpp-example
 PACKAGE_BUGREPORT = 
 PACKAGE_NAME = flex-bison-cpp-example
-PACKAGE_STRING = flex-bison-cpp-example 0.1.4
+PACKAGE_STRING = flex-bison-cpp-example 0.1.5
 PACKAGE_TARNAME = flex-bison-cpp-example
-PACKAGE_VERSION = 0.1.4
+PACKAGE_VERSION = 0.1.5
 PATH_SEPARATOR = :
 RANLIB = ranlib
 SET_MAKE = 
 SHELL = /bin/sh
 STRIP = 
-VERSION = 0.1.4
+VERSION = 0.1.5
 YACC = bison -y
 YFLAGS = 
-abs_builddir = /Users/linse/flex-bison-cpp-example-0.1.4
-abs_srcdir = /Users/linse/flex-bison-cpp-example-0.1.4
-abs_top_builddir = /Users/linse/flex-bison-cpp-example-0.1.4
-abs_top_srcdir = /Users/linse/flex-bison-cpp-example-0.1.4
+abs_builddir = /Users/linse/Documents/cloned/flex-bison-cpp-example
+abs_srcdir = /Users/linse/Documents/cloned/flex-bison-cpp-example
+abs_top_builddir = /Users/linse/Documents/cloned/flex-bison-cpp-example
+abs_top_srcdir = /Users/linse/Documents/cloned/flex-bison-cpp-example
 ac_ct_CC = gcc
 ac_ct_CXX = g++
 am__include = include
@@ -142,7 +142,7 @@ host_alias =
 htmldir = ${docdir}
 includedir = ${prefix}/include
 infodir = ${datarootdir}/info
-install_sh = $(SHELL) /Users/linse/flex-bison-cpp-example-0.1.4/scripts/install-sh
+install_sh = $(SHELL) /Users/linse/Documents/cloned/flex-bison-cpp-example/scripts/install-sh
 libdir = ${exec_prefix}/lib
 libexecdir = ${exec_prefix}/libexec
 localedir = ${datarootdir}/locale
